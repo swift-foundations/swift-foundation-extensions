@@ -11,6 +11,7 @@ let package = Package(
         .macOS(.v27),
         .tvOS(.v27),
         .watchOS(.v27),
+        .visionOS(.v27),
     ],
     products: [
         .library(name: "FoundationEssentials Extensions", targets: ["FoundationEssentials Extensions"]),
